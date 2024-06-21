@@ -1,6 +1,3 @@
-let name = "Настя";
-if (name === "Женя" ) {
-  console.log("Привет мне!");
-} else {
-  console.log("Привет незнакомец!");
+for (let x = 3; x < 10000; x = x * 3) {
+  console.log(x);
 }
