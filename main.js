@@ -1,3 +1,4 @@
-for (let x = 3; x < 10000; x = x * 3) {
-  console.log(x);
+let animals = ["Кот", "Рыба", "Лемур", "Комодский варан"];
+for (let i = 0; i < animals.length; i++){
+  console.log(animals[i] + "- Прекрасное животное")
 }
