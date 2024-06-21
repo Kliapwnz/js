@@ -1,7 +1,6 @@
-let name = "Николай";
-console.log("Привет, " + name);
-if (name.length > 6) {
-  console.log("Ну и длиннющее же у вас имя!");
+let name = "Настя";
+if (name === "Женя" ) {
+  console.log("Привет мне!");
 } else {
-  console.log("Имя у вас не из длинных.");
+  console.log("Привет незнакомец!");
 }
